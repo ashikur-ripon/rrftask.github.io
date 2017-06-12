@@ -1,0 +1,24 @@
+.mainmenu li a:hover {
+	color: #22A4F9; 
+}
+.hero-area {
+	background: url(../img/hero-bg-2.png);
+	background-color: #3295f5;
+}
+.boxed-btn {
+	background-color: #3295f5;
+}
+.hero-area {
+	color: #fff;
+	background-size: cover;
+	background-position: center;
+	line-height: 1.8;
+	padding: 80px 0;
+}
+.hero-area h1 {
+	color: #fff;
+	font-size: 45px;
+}
+.hero-area h1 {
+	margin-top: 90px;
+}
