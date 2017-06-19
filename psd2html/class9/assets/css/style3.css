@@ -60,8 +60,7 @@ html,body {
 }
 .homepage-slides div.slide-item-wrapper,
 .homepage-slides div.slide-item-wrapper div, 
-.homepage-slides div.owl-controls,
-.homepage-slides div.owl-controls div {
+.homepage-slides div.owl-controls {
 	height: auto;
 }
 
