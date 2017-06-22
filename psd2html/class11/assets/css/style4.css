@@ -1,0 +1,140 @@
+.homepage-hero-area-4 {
+	background-image:url(../img/home4/hero-area-4.jpg);
+}
+body,html,.homepage-hero-area-4,.single-slide-item {
+	height: 100%;
+}
+.single-slide-item {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.slide-item-wrapper {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	font-weight: 300;
+}
+.slide-item-wrapper h2 {
+	font-weight: 700;
+	font-size: 35px;
+	color: #fff;
+	line-height: 50px;
+}
+.website-check-from {
+	margin-top: 30px;
+}
+.website-check-from input {
+	background-color:#073b4c;
+	border-color:#073b4c;
+}
+.boxed-btn, input[type="submit"], button[type=submit] {
+	background-color: #24d5a1;
+}
+.website-check-from input[type="submit"], 
+.website-check-from button[type=submit] {
+	background-color: #24d5a1;
+}
+.homepage-hero-area-4 {
+	background-size: cover;
+	background-position: center;
+	background-color:#000;
+	position: relative;
+	z-index: 1;
+}
+.homepage-hero-area-4:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	background: #073b4c;
+	opacity: .25;
+	z-index: -1;
+}
+
+
+/* off canvas menu */
+.off-canvas-menu {
+	position: fixed;
+	left: 0px;
+	top: 0;
+	z-index: 99;
+	background: #ffffff;
+	width: 300px;
+	padding: 40px;
+	height: 100%;
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s;
+}
+
+.menu-close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #fff;
+	padding: 45px;
+	cursor: pointer;
+	color:#373737;
+}
+.menu-close i {
+	padding-right: 7px;
+}
+
+.menu-logo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 30px;
+}
+.off-canvas-menu a {
+	color: #373737;
+}
+.off-canvas-menu ul {
+	font-size: 16px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	line-height: 2.3;
+	padding-top: 140px;
+	font-weight: 300;
+}
+.off-canvas-menu a:hover {
+	color: #06d6a0;
+}
+.menu-trigger, .search-trigger {
+	color: #fff;
+	font-size: 18px;
+	padding: 11px 0 5px;
+	display: inline-block;
+	cursor: pointer;
+}
+.off-canvas-menu.show-off-canvas-menu {
+	left: 0;
+	opacity:1;
+	visibility: visible;
+}
+
+.off-canvas-menu-shade {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: #073b4c;
+	z-index: 98;
+	opacity: 0;
+	visibility: hidden;
+}
+.off-canvas-menu-shade.active {
+	opacity: .7;
+	visibility: visible;
+}
+.off-canvas-menu h4 {
+	margin-top: 50px;
+	color:#373737;
+	font-size: 16px;
+	
+}
