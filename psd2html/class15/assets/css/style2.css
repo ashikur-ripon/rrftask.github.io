@@ -49,3 +49,6 @@ h3 {
 .theme2-blog-box-carousel .owl-dots div.active {
     background-color: #2ecc71;
 }
+.footer-area a:hover {
+    color: #06d6a0;
+}
