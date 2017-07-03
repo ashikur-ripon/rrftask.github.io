@@ -1,0 +1,91 @@
+.homepage-hero-area-4 {
+	background-image:url(../img/home4/hero-area-4.jpg);
+}
+body,html,.homepage-hero-area-4,.single-slide-item {
+	height: 100%;
+}
+ h1,h2,h3,h4,h5,h6 {
+	 font-weight: 700;
+ }
+ body {
+	 font-weight: 300;
+	 line-height: 1.6;
+ }
+
+.single-slide-item {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.slide-item-wrapper {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	font-weight: 300;
+}
+.slide-item-wrapper h2 {
+	font-weight: 700;
+	font-size: 35px;
+	color: #fff;
+	line-height: 50px;
+}
+.website-check-from {
+	margin-top: 30px;
+}
+.website-check-from input {
+	background-color:#073b4c;
+	border-color:#073b4c;
+}
+.boxed-btn, input[type="submit"], button[type=submit] {
+	background-color: #24d5a1;
+}
+.website-check-from input[type="submit"], 
+.website-check-from button[type=submit] {
+	background-color: #24d5a1;
+}
+
+
+
+ .padding-top-80 {
+	 padding-top: 80px;
+ }
+ .inline-btn {
+	 color: #06d6a0; 
+	 display: inline-block;
+	 padding-top: 15px;
+ }
+ 
+.shadow-img {
+	box-shadow: 0 0 11px #f5f5f5;
+}
+.paddding-30 {padding: 30px;}
+
+
+
+.single-service-box:hover {
+	border-color: #06d6a0;
+}
+.single-service-box:hover a.service-readmore-btn,
+.single-service-box:hover h3, 
+.single-service-box:hover .service-icon {
+	color: #06d6a0;
+}
+
+
+/* start service section html */
+
+.single-pricing-box:hover {
+    border-color: #24d5a1;
+}
+.single-pricing-box:hover .pricing-heading{
+     border-bottom: 1px solid #24d5a1;
+}
+
+.pricing-count {
+	color: #24d5a1;
+}
+  
+/* end service section html*/
+
