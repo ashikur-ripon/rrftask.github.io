@@ -117,6 +117,10 @@ body,html,.homepage-hero-area-4,.single-slide-item {
 .pricing-breadcroumb-bg-1 {
     background-image: url(../img/pricing-breadcroumb-bg-1.jpg);
 }
+.far-breadcroumb-bg-1 {
+    background-image: url(../img/far-breadcroumb-bg-1.jpg);
+}
+
 .owl-dots div.active {
     background-color: #06d6a0;
 }
