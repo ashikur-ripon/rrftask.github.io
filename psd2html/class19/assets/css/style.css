@@ -1,0 +1,136 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700,800');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+	color: #373737;
+}
+body {
+	font-family: 'Khula', sans-serif;
+	font-size: 15px;
+	color: #999;
+}
+a:hover { text-decoration: none }
+
+
+.mainmenu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.mainmenu li {
+	position: relative;
+	display: inline-block;
+}
+.mainmenu li a {
+	display: block;
+	color: #888;
+	padding: 12px 16px;
+}
+.mainmenu ul li:hover a, .mainmenu ul li.active a{
+    color: #ef476f;
+}
+.mainmenu li a i {
+	font-size: 12px;
+	margin-left: 2px;
+}
+
+
+
+.mainmenu li ul {
+	position: absolute;
+	left: -45px;
+	top: 20px;
+	background: #ec4a71;
+	width: 180px;
+	z-index: 2;
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.mainmenu li:hover ul {
+	opacity: 1;
+	visibility: visible;
+	top: 44px;
+}
+.mainmenu li ul a {
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.mainmenu li ul li {
+	display: block;
+	border-bottom: 1px dotted #ccc;
+}
+
+.mainmenu ul li a {
+	transition: .3s;
+}
+.mainmenu ul li ul.submenu li a {
+    padding: 8px 15px;
+    color: #fff;
+}
+.mainmenu ul li > ul.submenu li:hover > a {
+    padding-left: 20px;
+    color: #000;
+}
+
+
+
+.boxed-btn, input[type="submit"], button[type="submit"] {
+	display: inline-block;
+	background: #ec4a71;
+	color: #fff;
+	font-size: 13px;
+	padding: 12px 12px;
+	border-radius: 2px;
+	border: none;
+}
+.hero-area {
+	font-weight: 300;
+	padding: 150px 0;
+	border-bottom: 1px solid #f7f7f7;
+}
+.hero-area h1 {
+	font-size: 40px;
+	max-width: 440px;
+	margin-bottom: 20px;
+	padding-top: 25px;
+}
+input[type=text], input[type=email], input[type=tel], input[type=password], input[type=url], textarea {
+	border: 1px solid #f0f0f0;
+	padding: 10px 15px;
+}
+input[type="submit"], button[type="submit"] {
+	padding: 11px 25px;
+	font-weight: 400;
+}
+.website-checker-form {
+	margin-top: 30px;
+}
+.header-area {
+	padding: 20px 0;
+}
