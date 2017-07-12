@@ -1,0 +1,207 @@
+.homepage-hero-area-4 {
+	background-image:url(../img/home4/hero-area-4.jpg);
+}
+body,html,.homepage-hero-area-4,.single-slide-item {
+	height: 100%;
+}
+ h1,h2,h3,h4,h5,h6 {
+	 font-weight: 700;
+ }
+ body {
+	 font-weight: 300;
+	 line-height: 1.6;
+ }
+
+.single-slide-item {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.slide-item-wrapper {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	font-weight: 300;
+}
+.slide-item-wrapper h2 {
+	font-weight: 700;
+	font-size: 35px;
+	color: #fff;
+	line-height: 50px;
+}
+.website-check-from {
+	margin-top: 30px;
+}
+.website-check-from input {
+	background-color:#073b4c;
+	border-color:#073b4c;
+}
+.boxed-btn, input[type="submit"], button[type="submit"], .mainmenu li a.boxed-btn {
+	background-color: #24d5a1;
+}
+.website-check-from input[type="submit"], 
+.website-check-from button[type=submit] {
+	background-color: #24d5a1;
+}
+
+
+
+ .padding-top-80 {
+	 padding-top: 80px;
+ }
+
+ 
+.shadow-img {
+	box-shadow: 0 0 11px #f5f5f5;
+}
+.paddding-30 {padding: 30px;}
+
+
+
+.single-service-box:hover {
+	border-color: #06d6a0;
+}
+.single-service-box:hover a.service-readmore-btn,
+.single-service-box:hover h3, 
+.single-service-box:hover .service-icon {
+	color: #06d6a0;
+}
+
+
+/* start service section html */
+.single-pricing-box:hover {
+    border-color: #24d5a1;
+}
+.single-pricing-box:hover .pricing-heading{
+     border-bottom: 1px solid #24d5a1;
+}
+
+.pricing-count {
+	color: #24d5a1;
+}
+/* end service section html*/
+.single-blog-box {
+	display: block;
+	margin: 15px 0;
+	color: #333;
+	min-height: 525px;
+}
+
+
+.blog-bg-1 {background-image:url(../img/blog-bg/blog-1.jpg);}
+.blog-bg-2 {background-image:url(../img/blog-bg/blog-2.jpg);}
+.blog-bg-3 {background-image:url(../img/blog-bg/blog-3.jpg);}
+.blog-bg-4 {background-image:url(../img/blog-bg/blog-4.jpg);}
+.blog-bg-5 {background-image:url(../img/blog-bg/blog-5.jpg);}
+.blog-bg-6 {background-image:url(../img/blog-bg/blog-6.jpg);}
+.blog-bg-7 {background-image:url(../img/blog-bg/blog-7.jpg);}
+.blog-bg-8 {background-image:url(../img/blog-bg/blog-8.jpg);}
+.blog-bg-9 {background-image:url(../img/blog-bg/blog-9.jpg);}
+
+
+.mainmenu li a:hover, .footer-area a:hover {
+    color: #06d6a0;
+}
+.boxed-btn:hover, .theme-2 .hero-form input[type="submit"]:hover, input[type="submit"]:hover, button[type="submit"]:hover, .mainmenu li a.boxed-btn:hover {
+    background: #00AF7A;
+}
+
+
+.about-breadcroumb-bg-1 {
+    background-image: url(../img/about/about-breadcroumb-bg-1.jpg);
+}
+.team-breadcroumb-bg-1 {
+    background-image: url(../img/team-breadcroumb-bg-1.jpg);
+}
+.pricing-breadcroumb-bg-1 {
+    background-image: url(../img/pricing-breadcroumb-bg-1.jpg);
+}
+.far-breadcroumb-bg-1 {
+    background-image: url(../img/far-breadcroumb-bg-1.jpg);
+}
+
+.owl-dots div.active {
+    background-color: #06d6a0;
+}
+
+
+
+.comments-area.contact-v2 {
+	margin-top: 0;
+}
+.contact-v2 h3 {
+	font-size: 22px
+}
+
+.breadcroumb-area.single-blog-bg {
+	background-image:url( ../img/blog-bg/single-blog-bg.jpg);
+}
+.breadcroumb-area.contact-us-v1 {
+	background-image:url( ../img/contact-us-v1-bg.jpg);
+}
+.breadcroumb-area.contact-us-v2 {
+	background-image:url( ../img/contact-us-v2-bg.jpg);
+}
+.breadcroumb-area.seo-bg {
+	background-image:url( ../img/seo-bg.jpg);
+}
+
+
+
+
+
+.cta-area.pricing-bg {
+	background-image:url( ../img/pricing-bg.jpg);
+}
+.cta-area.seo-cta-bg {
+	background-image:url( ../img/seo-cta-bg.jpg);
+}
+
+
+
+
+
+.single-drop-line-content {
+	color: #999999;
+	font-size: 15px;
+}
+.single-drop-line-content p {
+	float:left;
+	margin: 0;
+	padding-left: 60px;
+}
+.single-drop-line-content i {
+	color: #06d6a0;
+	position: relative;
+	top: 38px;
+	left: 25px;
+	font-size: 18px;
+}
+.single-drop-line-content span {
+	display: inline-block;
+}
+
+.seo-area {
+	color: #999;
+	line-height: 1.8;
+	padding: 80px 0;
+	background-color: #fff;
+	position: relative;
+	z-index: -2;
+}
+.seo-area h3 {
+	padding-bottom: 20px;
+}
+.hero-form {
+	box-shadow: -2px -2px 5px #f8f8f8;
+}
+.hero-form:after {
+	background: #f1f1f1;
+	opacity: 1;
+}
+
+
+
+
