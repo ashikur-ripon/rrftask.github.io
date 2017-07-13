@@ -7,7 +7,7 @@ html,body {
 .boxed-btn, input[type="submit"], button[type="submit"], .mainmenu li a.boxed-btn {
     background-color: #06d6a0;
 }
-/* Start  Hero area */
+
 .slide-bg-1 {background-image: url(../img/home3/slide-bg-1.jpg);}
 .slide-bg-2 {background-image: url(../img/home3/slide-bg-2.jpg);}
 .slide-bg-3 {background-image: url(../img/home3/slide-bg-3.jpg);}
@@ -22,9 +22,8 @@ html,body {
 	margin-top: ;
 	font-size: 15px;
 }
-/* End Hero area */
 
-/* Start  Menu Area */
+
 .single-slide-item {
 	padding-top: 50px;
 }
@@ -53,19 +52,16 @@ html,body {
     position: absolute;
     left: 47.8%;
 }
-/* End Menu Area */
 
-/* Start  Form area */
+
 .boxed-btn, input[type="submit"], button[type=submit] {
 	background-color: #24d5a1;
 }
 .website-check-from {
 	margin-top: -35px;
 }
-/* End Form area */
 
 
-/* Start  Our Services area */
 .single-slide-item:after {
 	background: #1d63f0;
 	background: -moz-linear-gradient(45deg, #1d63f0 0%, #1ad7fd 100%);
@@ -84,9 +80,8 @@ html,body {
 .single-service-box {
 	margin-bottom: 0;
 }
-/* End Our Services area */
 
-/* Start  Our case study area  */
+
 .case-study-bg-1{background-image:url(../img/home3/case1.jpg);}
 .case-study-bg-2{background-image:url(../img/home3/case2.jpg);}
 .case-study-bg-3{background-image:url(../img/home3/case3.jpg);}
@@ -99,11 +94,7 @@ html,body {
 .owl-dots div.active {
 	background-color: #24d5a1;
 }
-/* End Our case study area  */
 
-
-
-/* Start Blog area */
 .blog-bg-1 {background-image: url(../img/home3/blog-1.jpg);}
 .blog-bg-2 {background-image: url(../img/home3/blog-2.jpg);}
 .blog-bg-3 {background-image: url(../img/home3/blog-3.jpg);}
@@ -125,12 +116,7 @@ html,body {
 	color: #999;
 	opacity: .9;
 }
-/* End Blog area */
 
-
-
-
-/* Start  cta area  */
 .cta-area.theme-3 {background-image: url(../img/home3/cta-bg-2.jpg);}
 .cta-area.theme-3:after {
 	background: #05bdfe;

@@ -113,8 +113,6 @@ a:hover { text-decoration: none }
 }
 
 
-
-
 .video-play-btn {
 		display: inline-block;
 		background: #06d6a0;
@@ -134,50 +132,27 @@ input[type=text], input[type=email], input[type=tel], input[type=password], inpu
 input[type="submit"], button[type="submit"] {
 	padding: 11px 25px;
 }
-.section-padding {
-    padding: 115px 0;
-}
-.section-padding.overflow-x-hidden {
-	overflow: hidden;
-}
+.section-padding {padding: 115px 0;}
+.section-padding.overflow-x-hidden {overflow: hidden;}
 
-.pdt-50 {
-	padding-top: 50px;
-}
-.pdt-60 {
-	padding-top: 60px;
-}
-
-.pdt-115 {
-	padding-top: 115px;
-}
-
+.pdt-50 {padding-top: 50px;}
+.pdt-60 {padding-top: 60px;}
+.pdt-115 {padding-top: 115px;}
+.padding-top-80 {padding-top: 80px;}
+.paddding-30 {padding: 30px;}
 .padding-bottom-50 {padding-bottom: 50px;}
 .padding-bottom-90 {padding-bottom: 90px;}
 .padding-bottom-0 {padding-bottom: 0;}
 .padding-top-0 {padding-top: 0;}
-.pdt-50 .boxed-btn {
-	margin-top:15px;
-}
-.gray-bg {
-	background: #fbfbfb;
-}
-.shadow-img {  							/* not necessary*/
-	box-shadow: 0 0 11px #f5f5f5;    
-}
-.paddding-30 {padding: 30px;}			/* not necessary*/
-.padding-top-0 {
-	padding-top: 0;
-}
+.pdt-50 .boxed-btn {margin-top:15px;}
+.gray-bg {background: #fbfbfb;}
+.shadow-img {box-shadow: 0 0 11px #f5f5f5;}
+.paddding-30 {padding: 30px;}			
+.padding-top-0 {padding-top: 0;}
 .padding-80 { padding: 80px 0; }
-/* .section-padding.padding-top-0 {
-	padding-top: 0;
-}
-.section-padding.padding-top-0 { padding-top: 0;} */
 .padding-top-100 {padding-top: 100px;}
-.pd-50 {
-	padding-top: 50px;
-}
+.pd-50 {padding-top: 50px;}
+
 .pd-50 h3 {
 	font-size: 22px;
 	margin-bottom: 20px;
@@ -188,7 +163,6 @@ input[type="submit"], button[type="submit"] {
 /* =====================
 Header CSS
 ================*/
-
 .header-area {
 	padding: 20px 0;
 	font-weight: 500;
@@ -207,7 +181,6 @@ Header CSS
 /* =====================
 Mainmenu CSS
 ================*/
-
 .mainmenu ul {
 	margin: 0;
 	padding: 0;
@@ -227,7 +200,6 @@ Mainmenu CSS
 .mainmenu li a:hover {
 	color: #ef476f;
 }
-
 
 
 /* Drop Down CSS */
@@ -257,7 +229,6 @@ Mainmenu CSS
 .mainmenu li li {
 	padding: 3px;	
 }
-
 .mainmenu li li a {
 	padding: 7px 14px;
 }
@@ -273,8 +244,6 @@ Mainmenu CSS
 .mainmenu li.mega-menu {
 	position: static;
 }
-
-
 .mainmenu li.mega-menu ul {
 	width: 100%;
 	padding: 20px 15px;
@@ -286,7 +255,6 @@ Mainmenu CSS
 	top: auto;
 	left: auto;
 }
-
 .mainmenu li.mega-menu h5 {
 	font-size: 10px;
 	font-weight: 700;
@@ -304,6 +272,12 @@ Mainmenu CSS
 	font-weight: 700;
 }
 
+.mega-menu .logo a {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 25px;
+}
+
 
 
 .header-absolute .mainmenu li li a {
@@ -316,7 +290,6 @@ Mainmenu CSS
 	left: auto;
 	right: 0;
 }
-
 .homepage-1  .mainmenu li ul {
 	background-color: #ecf0f1;
 }
@@ -347,7 +320,6 @@ Mainmenu CSS
 	visibility: hidden;
 	transition: all ease-in-out 0.5s;
 }
-
 .menu-close {
 	position: absolute;
 	right: 0;
@@ -432,7 +404,6 @@ Mainmenu CSS
 /* =================
 BreadCroumb CSS
 ====================*/
-
 .breadcroumb-area {
 	text-align: center;
 	padding: 140px 0;
@@ -449,19 +420,16 @@ BreadCroumb CSS
 /* =====================
 Hero area CSS
 ================*/
-
 .hero-area {
 	font-weight: 300;
 	padding: 150px 0;
 	border-bottom: 1px solid #f7f7f7;
 }
-
 .hero-area h1 {
 	font-size: 40px;
 	margin-bottom: 20px;
 	padding-top: 20px;
 }
-
 .website-checker-form {
 	margin-top: 30px;
 }
@@ -536,8 +504,6 @@ Hero area CSS
 /* =====================
 Slide CSS
 ================*/
-
-
 .single-slide-item {
 	height: 100%;
 	display: table;
@@ -570,7 +536,7 @@ Slide CSS
 }
 
 
- .homepage-slides, .homepage-slides div {
+.homepage-slides, .homepage-slides div {
 	height: 100%;
 }
 
@@ -604,7 +570,6 @@ Slide CSS
 /* =====================
 Section title CSS
 ================*/
-
 .section-title {
 	margin-bottom: 60px;
 }
@@ -616,7 +581,6 @@ Section title CSS
 /* =====================
 Services CSS
 ================*/
-
 .single-service-box {
 	border: 1px solid #F5F5F5;
 	padding: 25px 20px;
@@ -778,7 +742,6 @@ About  CSS
 /* =====================
 Case study  CSS
 ================*/
-
 .single-case-study {
 	display: table;
 	width: 100%;
@@ -977,7 +940,6 @@ Case study  CSS
 /* =====================
 TileGallery  CSS
 ================*/
-
 .title-gallery {
 	 position: relative;
 	 padding-right: 20px;
@@ -994,8 +956,6 @@ TileGallery  CSS
 /* =====================
 OwlCarousel  CSS
 ================*/
-
-
 .owl-dots {
 	text-align: center;
 	margin-top: 20px;
@@ -1141,7 +1101,6 @@ Testimonial  CSS
 /* =====================
 Call to action CSS
 ================ */
-
 .cta-area{
 	background: #f8f8f8;
 	padding: 60px 0;
@@ -1316,7 +1275,6 @@ Call to action CSS
 /* ==================
 Pricing CSS
 ====================*/
-
 .single-pricing-box {
 	border: 1px solid #f8f8f8;
 	padding: 30px 15px;
@@ -1490,8 +1448,6 @@ Blog CSS
 /* ================
 Logo carousel CSS
 ===================*/
-
-
 .single-logo-item {
 	display: table;
 	width: 100%;
@@ -1524,7 +1480,6 @@ Logo carousel CSS
 /* =================
 Footer CSS
 ====================*/
-
 .footer-area {
 	background: #fdfdfd;
 	padding: 70px 0;
@@ -1590,17 +1545,6 @@ Footer CSS
 	display: block;
 	padding: 12px;
 }
-/*
-.social-links {
-	text-align: right;
-}
-.social-links a {
-	display: inline-block;
-	color: #373737;
-	padding: 12px;
-	padding-right: 0;
-	padding-left: 20px;
-}*/
 
 .footer-area-2 {
 	padding: 40px 0;
