@@ -1457,8 +1457,6 @@ Logo carousel CSS
 	display: table-cell;
 	vertical-align: middle;
 }
-
-
 .logo-item-inner img {
     transition: all 0.4s ease 0s;
     margin: 0 auto;
@@ -1467,6 +1465,7 @@ Logo carousel CSS
 }
 .single-logo-item:hover .logo-item-inner img {
     filter: grayscale(0);
+	cursor: pointer;
 }
 /* 
 .single-logo-item {
