@@ -76,6 +76,8 @@ section.section-padding {padding: 100px 0;}
 	Blog Box CSS
 ============*/
 .blog-box-bg-1 {background-image:url(../img/blog-box-1.jpg);}
+.blog-box-bg-2 {background-image:url(../img/blog-box-2.jpg);}
+.blog-box-bg-3 {background-image:url(../img/blog-box-3.jpg);}
 .blog-box-bg {
 	background-color: #ddd;
 	background-position: center;
