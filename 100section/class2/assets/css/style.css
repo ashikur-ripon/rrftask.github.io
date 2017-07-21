@@ -1,0 +1,121 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Lato', sans-serif;
+}
+a:hover { text-decoration: none }
+*:focus {
+    outline: none;
+   }
+
+
+
+.section-padding {
+	padding: 80px 0;
+}
+.quote-form-wrap img {
+	display: block;
+	margin: 0 auto;	
+}
+.blue-quote-form {
+	background: #2ab6fb;
+	margin-top: -84px;
+	padding-top: 34px;
+	max-width: 770px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 50px;
+}
+.blue-quote-form h3 {
+	font-size: 26px;
+	text-transform: uppercase;
+	color: #fff; 
+	text-align: center;
+	position: relative;
+	padding-bottom: 20px;
+	margin-top: 0;
+}
+.blue-quote-form h3:before {
+	position: absolute;
+	left: 50%;
+	border: 0;
+	bottom: 0;
+	height: 1px;
+	width: 130px;
+	content: "";
+	background: #fff;
+	margin-left: -65px;
+}
+.blue-quote-form h3:after {
+	border: 2px solid #fff;
+	border-radius: 50%;
+	bottom: -6.5px;
+	content: "";
+	height: 13px;
+	left: 50%;
+	margin-left: -6.5px;
+	position: absolute;
+	width: 13px;
+}
+.blue-quote-form input, .blue-quote-form textarea {
+	background: none;
+	border: none;
+}
+.blue-quote-form input, .blue-quote-form textarea {
+	border-bottom: 1px solid #8fdafc;
+	color: #fff;
+	padding: 10px 0;
+	width: 100%;
+}
+.blue-quote-form textarea {
+	height: 100px;
+}
+.blue-form-submit {
+	margin-top: 20px;
+	text-align: center;
+	transition: .3s;
+}
+.blue-form-submit button[type="submit"] {
+	background: #fff;
+	border: none;
+	border-radius: 3px;
+	color: #2ab6fb;
+	padding: 10px;
+	text-transform: uppercase;
+}
+.blue-quote-form p {
+	padding: 0 15px;
+} 
+.blue-form-submit:hover {
+	opacity: .9;
+}
+.blue-quote-form input:focus {
+	border: none;
+}
+
+
