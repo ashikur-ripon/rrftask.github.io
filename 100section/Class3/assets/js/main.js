@@ -8,6 +8,10 @@
         $(".carousel-inner .item:first-child").addClass("active");
         
         $('[data-toggle="tooltip"]').tooltip();
+		
+		$(".video-play-btn").magnificPopup({
+			type: 'video'
+		});
 
 
 
