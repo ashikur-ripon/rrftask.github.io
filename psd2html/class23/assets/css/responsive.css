@@ -1,0 +1,72 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+/*     .header-area .bordered-btn {
+        padding: 8px 11px;
+    }
+    .single-price-box-item {
+        padding: 18px;
+    }
+    .hero-area h1 {
+        font-size: 40px;
+    }
+    .about-text h3 {
+        margin-bottom: 25px;
+    }
+    .hero-area-3-tablecell h1 {
+        font-size: 54px;
+    }
+    .about-text {
+        margin-top: 30px;
+    }
+    .single-blog-box-item h4 {
+        min-height: 100px;
+    }
+    .single-feature-item {
+        margin-top: 12px;
+    }
+    .team-box img {
+        height: 220px;
+    }
+    .cta-area h1 {
+        font-size: 35px;
+    }
+    .case-study-wrap .single-case-study {
+        height: 220px;
+    }
+    .pdt-100 {
+        padding-top: 0;
+    }
+    .pdt-50 {
+        padding-top: 0;
+    }
+    .mail-us-form input,
+    .mail-us-form textarea {
+        padding: 14px;
+    }
+    .contact-with {
+        padding-top: 170px;
+    }
+    .mail-us-form input,
+    .mail-us-form textarea {
+        margin-bottom: 21px;
+    }
+    .hero-comon-cls h1 {
+        font-size: 29px;
+    }  */
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
