@@ -1,0 +1,90 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.section-padding {padding: 80px 0;}
+
+body,h2 {
+	font-weight: 300;
+}
+.section-title {
+	font-size: 20px;
+	line-height: 1.8;
+	margin-bottom: 50px;
+}
+.contact-us-form {
+	font-size: 17px;
+	font-weight: 400;
+}
+p.form-element {position: relative;}
+p.form-element label {
+	position: absolute;
+	left: 15px;
+	top: 10px;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.contact-us-form input[type=text],
+.contact-us-form input[type=email],
+form textarea {
+	border: 1px solid #ddd;
+	padding: 15px;
+	width: 100%;
+	font-size: 14px;
+	padding-top: 34px;
+	padding-bottom: 10px;
+	transition: all .3s ease;
+}
+.contact-us-form textarea {
+	max-height: 150px;
+}
+.contact-us-form input[type="submit"] {
+	float: right;
+	background: #6D5AB0;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+p.small-text {
+	font-size: 14px;
+	margin: 0;
+	padding: 12px 0;
+}
+.contact-us-form input[type=text]:focus, 
+.contact-us-form input[type=email]:focus, 
+.contact-us-form textarea:focus {
+	background-color: #F0F0F0;
+	outline: 0;
+}
+
+
+
+
