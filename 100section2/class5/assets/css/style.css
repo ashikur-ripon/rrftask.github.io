@@ -1,0 +1,167 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.section-padding {
+	padding: 80px 0;
+}
+
+
+.author-img {
+	position: relative;
+}
+.author-img-hover {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 17px;
+	color: #555;
+}
+.author-img-hover:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	background: #ddd;
+	opacity: .8;
+	z-index: -1;
+}
+.author-img-hover-inner {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.author-img-hover h2 {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+body {
+	font-weight: 300;
+}
+.social-links a {
+	color: #919191;
+	padding: 2px;
+	display: inline-block;
+}
+.single-team-box h3 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 16px;
+	margin-bottom: 0;
+	letter-spacing: 5px;
+	font-weight: 400;
+	color: #AAA;
+}
+.single-team-box h3 span {
+	display: block;
+	font-size: 74%;
+	margin-top: 9px;
+}
+.author-img-hover-wrap {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 20px;
+}
+.single-team-box:hover  h3{
+	color: #111;
+}
+.single-team-box:hover  span{
+	color: #aaa;
+}
+.single-team-box:hover {
+	cursor: pointer;
+}
+
+.author-img {
+	overflow: hidden;
+}
+
+
+
+.animation-1 .author-img-hover {
+	transition: all ease .5s;
+	visibility: hidden;
+	left: -100%;
+}
+.animation-1.single-team-box:hover .author-img-hover{
+	visibility: visible;
+	left: 0;
+}
+
+
+.animation-2 .author-img-hover {
+	transition: all ease .5s;
+	opacity: 0;
+	visibility: hidden;
+}
+.animation-2.single-team-box:hover .author-img-hover{
+	opacity: 1;
+	visibility: visible;
+}
+.animation-2 .author-img-hover:after {
+	transform: scale(0);
+	transition: all ease .5s;
+}
+.animation-2.single-team-box:hover .author-img-hover:after {
+  transform: scale(1);
+}
+
+
+.animation-3 .author-img-hover {
+	transition: all ease .5s;
+	top: -100%;
+	visibility: hidden;
+}
+.animation-3.single-team-box:hover .author-img-hover{
+	top: 0;
+	visibility: visible;
+}
+
+.animation-4 .author-img-hover {
+	transform: scale(1);
+	transition: all ease .5s;
+	opacity: 0;
+}
+.animation-4.single-team-box:hover .author-img-hover{
+	transform: scale(1.1);
+	opacity: 1;
+}
+
+
+
