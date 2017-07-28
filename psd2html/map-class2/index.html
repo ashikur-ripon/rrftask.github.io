@@ -26,10 +26,11 @@
 							function myMap() {
 								var mapProp= {
 									center:new google.maps.LatLng(24.3802369,88.5709505),
-									zoom:12,
+									zoom:14,
+  scrollwheel: false,
 									
 									styles: [
-										{elementType: 'geometry', stylers: [{color: '#7f8c8d'}]},
+										{elementType: 'geometry', stylers: [{color: '#EBE8DE'}]},
 										{elementType: 'labels.text.fill', stylers: [{color: '#2c3e50'}]},
 										{
 										  featureType: 'administrative.locality',
@@ -40,7 +41,7 @@
 										{
 										  featureType: 'road',
 										  elementType: 'geometry',
-										  stylers: [{color: '#2ecc71'}]
+										  stylers: [{color: '#ffffff'}]
 										},
 										{
 										  featureType: 'road',
@@ -50,7 +51,7 @@
 										{
 										  featureType: 'road.highway',
 										  elementType: 'geometry',
-										  stylers: [{color: '#1abc9c'}]
+										  stylers: [{color: '#ffffff'}]
 										},
 										{
 										  featureType: 'road.highway',
@@ -80,6 +81,7 @@
 									]
 									
 								};
+								
 								var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 							}
 						</script>
