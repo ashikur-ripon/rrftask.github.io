@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+a:hover { text-decoration: none }
+.section-padding {
+	padding: 80px 0;
+}
+
+
+.newsletter-bg {background-image:url(../img/bg-1.jpg);}
+.newsletter-bg h2 {
+	text-transform: uppercase;
+}
+.newsletter-bg {
+	position: relative;
+	z-index: 1;
+	color: #fff;
+	text-align: center;
+	background-size: cover;
+	background-position: center; 
+	padding-bottom: 180px;
+}
+.newsletter-bg:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	content: "";
+	background: #000;
+	z-index: -1;
+	opacity: .3;
+}
+.newsletter-bg h2 {
+	font-size: 28px;
+	font-weight: 900;
+	margin-bottom: 50px;
+}
+.newsletter-form input[type=email] {
+	background: #333;
+	border: 1px solid #8e8582;
+	padding: 12px 20px;
+	opacity: .6;
+	width: 76%;
+	border-radius: 50px;
+}
+.newsletter-form input[type=submit] {
+	background: #34b79d;
+	color: #fff;
+	border: none;
+	padding: 11px 28px;
+	border-radius: 50px;
+	width: 23%;
+	transition: all ease .3s;
+	border: 2px solid #34b79d;
+}
+.newsletter-form form{
+	margin-bottom: 14px;
+}
+p.newsletter-text {
+	font-style: italic;
+}
+.bordered-boxes {
+	overflow: hidden;
+	border-right: 1px solid #ededed;
+	margin-top: -160px;
+	position: relative;
+	z-index: 9;
+	background: #fff;
+}
+.single-bordered-box {
+	float: left;
+	width: 50%;
+	border-left: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	border-top: 1px solid #ededed;
+	padding: 50px 80px;
+	text-align: center;
+	min-height: 285px;
+}
+.single-bordered-box h4 {
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+.single-testimonial-box {
+	font-style: italic;
+	line-height: 1.6;
+}
+p.author-name {
+	color: #000;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-style: normal;
+	margin-top: 20px;
+}
+.bordered-btn {
+	background: #000;
+	color: #fff;
+	padding: 8px 27px;
+	display: inline-block;
+	border-radius: 50px;
+	margin-top: 10px;
+	transition: all ease .3s;
+	border: 1px solid #fff;
+}
+input:focus {
+	outline: 0;
+}
+
+.newsletter-form input[type=submit]:hover {
+	background: #fff;
+	color: #34b79d;
+	border: 2px solid #34b79d;
+}
+.bordered-btn:hover {
+	background: #fff;
+	color: #000;
+	border: 1px solid #000;
+}
+
+
