@@ -1,0 +1,76 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.section-padding {
+	padding: 80px 0;
+}
+
+
+
+.map {
+	height: 500px;
+	width: 100%;
+	display: block;
+}
+
+
+.map-area-text {
+	width: 400px;
+	height: 180px;
+	background: #06d6a0;
+	padding: 25px;
+	color: #fff;
+	border-radius: 3px;
+	position: relative;
+}
+.map-area-text h5 {
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.map-area-text p {
+	font-size: 14px;
+	font-weight: 400;
+}
+.map-area-text span {
+	padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
