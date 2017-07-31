@@ -5,7 +5,8 @@
 	background-color: #06d6a0;
 }
 .boxed-btn:hover, input[type="submit"]:hover, button[type="submit"]:hover, .mainmenu li a.boxed-btn:hover {
-	background: #00AF7A;
+		background-color: #333;
+	color: #fff;
 }
 
 

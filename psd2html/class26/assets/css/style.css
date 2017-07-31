@@ -1779,7 +1779,8 @@ Hover CSS
 }
 .boxed-btn:hover, 
 input[type=submit]:hover, 
-button[type=submit]:hover {
+button[type=submit]:hover,
+.mainmenu li a.boxed-btn:hover {
 	background-color: #333;
 	color: #fff;
 }
