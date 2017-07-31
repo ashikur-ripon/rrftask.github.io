@@ -69,17 +69,7 @@
 			margin: 30,
 			loop: true,
 			dots: true,
-			nav: false,
-			responsive : {
-				0 : {
-					items: 1
-				},
-				768 : {
-					items: 2
-				},
-				992 : {
-					items: 3
-				}			
+			nav: false,		
 		});
 		
 		$(".theme2-single-testimonial-carousel").owlCarousel({
@@ -94,17 +84,7 @@
 			margin: 30,
 			loop: true,
 			dots: true,
-			nav: false,
-			responsive : {
-				0 : {
-					items: 1
-				},
-				768 : {
-					items: 2
-				},
-				992 : {
-					items: 3
-				}
+			nav: false
 		});
 		
 		
