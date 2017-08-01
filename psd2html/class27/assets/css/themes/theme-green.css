@@ -1,0 +1,9 @@
+.boxed-btn, input[type="submit"], button[type="submit"], .mainmenu li a.boxed-btn, .homepage-1 .mainmenu li:hover li:hover>a, .case-study-wrapper, .owl-dots div.active {
+	background: #27ae60;
+}
+.single-service-box:hover, .single-pricing-box:hover, .single-pricing-box:hover .pricing-heading {
+	border-color: #27ae60;
+}
+.single-service-box:hover a.service-readmore-btn, .single-service-box:hover h3, .single-service-box:hover .service-icon, .mainmenu li a:hover, .homepage-1  .mainmenu li:hover>a, .homepage-1 .mega-cta h4 span, .pricing-count, .footer-area a:hover {
+	color: #27ae60;
+}

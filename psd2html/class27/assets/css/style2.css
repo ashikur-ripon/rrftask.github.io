@@ -1,0 +1,64 @@
+.mainmenu li a:hover {
+	color: #06d6a0;
+}
+.boxed-btn, input[type="submit"], button[type="submit"], .mainmenu li a.boxed-btn {
+	background-color: #06d6a0;
+}
+.boxed-btn:hover, input[type="submit"]:hover, button[type="submit"]:hover, .mainmenu li a.boxed-btn:hover {
+		background-color: #333;
+	color: #fff;
+}
+
+
+.hero-area {
+	background: url(../img/hero-bg-2.png);
+	background-color: #3295f5;
+	position: relative;
+	z-index: 1;
+}
+
+.hero-area {
+	color: #fff;
+	background-size: cover;
+	background-position: center;
+	line-height: 1.8;
+	padding: 80px 0;
+}
+.hero-area h1 {
+	color: #fff;
+	font-size: 40px;
+	margin-top: 90px;
+}
+h3 {
+	font-size: 22px;
+}
+.service-icon {
+	margin-bottom: 15px;
+	color: #2a9cf7;
+}
+.footer-area .footer-left {
+	padding-right: 30px;
+}
+.footer-area .footer-left p {
+	margin-top: 30px;
+	color:#999999;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 25px;
+}
+.footer-area.theme-2 ul.social-links li  {
+	display: block;
+	width: 100%;
+}
+.footer-area.theme-2 ul.social-links i.fa {
+    margin-right: 10px;
+}
+.theme2-case-studies-carousel .owl-dots div.active,
+.theme2-single-testimonial-carousel .owl-dots div.active,
+.theme2-blog-box-carousel .owl-dots div.active {
+    background-color: #2ecc71;
+}
+.footer-area a:hover {
+    color: #06d6a0;
+}
+
