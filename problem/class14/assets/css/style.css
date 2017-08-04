@@ -32,8 +32,12 @@ a:hover { text-decoration: none }
 .section-padding {
 	padding: 80px 0;
 }
-
-
+.portfolio-bg-1 {background-color:#1abc9c;}
+.portfolio-bg-2 {background-color:#2ecc71;}
+.portfolio-bg-3 {background-color:#3498db;}
+.portfolio-bg-4 {background-color:#9b59b6;}
+.portfolio-bg-5 {background-color:#e74c3c;}
+.portfolio-bg-6 {background-color:#f1c40f;}
 
 .single-portfolio-item:after {
 	background: #ffffff;
@@ -51,8 +55,7 @@ a:hover { text-decoration: none }
 	float: left;
 	height: 250px;
 	background-size: cover;
-	background-position: center;
-	background-color: #000000;	
+	background-position: center;	
 	position: relative;
 	z-index: 1;
 }
