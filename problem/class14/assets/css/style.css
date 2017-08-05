@@ -51,7 +51,7 @@ a:hover { text-decoration: none }
 	overflow: hidden;
 }
 .single-portfolio-item {
-	width: 33.3333%;
+	width: 33.333333%;
 	float: left;
 	height: 250px;
 	background-size: cover;
