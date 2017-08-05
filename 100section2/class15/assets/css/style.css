@@ -1,0 +1,138 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.section-padding {
+	padding: 80px 0;
+}
+
+
+.portfolio-bg-1 {background-image:url(../img/1.jpg);}
+.portfolio-bg-2 {background-image:url(../img/2.jpg);}
+.portfolio-bg-3 {background-image:url(../img/3.jpg);}
+.portfolio-bg-4 {background-image:url(../img/4.jpg);}
+.portfolio-bg-5 {background-image:url(../img/5.jpg);}
+.portfolio-bg-6 {background-image:url(../img/6.jpg);}
+
+
+.single-portfolio-item:after {
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 0%, #000000 100%);
+	background: -webkit-linear-gradient(top, #ffffff 0%,#000000 100%);
+	background: linear-gradient(to bottom, #ffffff 0%,#000000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
+}
+
+.portfolio-list {
+	overflow: hidden;
+}
+.single-portfolio-item {
+	width: 33.3333%;
+	float: left;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+	background-color: #000000;	
+	position: relative;
+	z-index: 1;
+}
+.single-portfolio-item.large-bg {
+	height: 500px;
+}
+.portfolio-hover {
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	position: absolute;
+	left: 0;
+	bottom: -65px;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	transition: all ease .3s;
+	opacity: 0;
+	visibility: hidden;
+}
+.portfolio-hover h4 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.single-portfolio-item:after {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	z-index: -1;
+	opacity: 0;
+	visibility: hidden;
+	transition: all ease .3s;
+}
+.single-portfolio-item:hover:after{
+	opacity: .6;
+	visibility: visible;
+}
+.single-portfolio-item:hover .portfolio-hover {
+	bottom: 0;
+	opacity: 1;
+	visibility: visible;
+}
+
+
+ul.portfolio-filter {
+	margin: 0 0 30px;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	font-size: 18px
+}
+ul.portfolio-filter li {
+	display: inline-block;
+	padding-right: 20px;
+	text-transform: capitalize;
+	cursor: pointer;
+}
+ul.portfolio-filter li.active {
+	color: red;
+}
+ul.portfolio-filter li:after {
+	content: "/";
+	padding-left: 25px;
+	color:#000;
+}
+ul.portfolio-filter li:last-child:after {
+	content: "/";
+	display: none;
+}
+
+
+
+
