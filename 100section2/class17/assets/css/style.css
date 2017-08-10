@@ -1,0 +1,109 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-size: 16px;
+	line-height: 1.8;
+	color: #737373;
+}
+a:hover { text-decoration: none }
+.section-padding {
+	padding: 40px 0;
+}
+
+.section-title h2 {
+	position: relative;
+	z-index: 1;
+	font-size: 35px;
+	color: #292929;
+}
+.section-title h2:before {
+	position: absolute;
+	content: "";
+	left: -20px;
+	top: 0;
+	width: 5px;
+	height: 100%;
+	background: #FFBB00;
+}
+.section-title {
+	margin-bottom: 40px;
+}
+.service-icon {
+	color:  #FFBB00;
+	font-size: 50px;
+}
+.single-service-box h3 {
+	color: #2c45e2;
+}
+.single-service-box {
+	margin-bottom: 40px;
+}
+.bordered-box {
+	border: 6px solid #FFBB00;
+	padding: 40px;
+	margin-left: 30px;
+	margin-top: 100px;
+	margin-right: 100px;
+	position: relative;
+}
+.bordered-box-img {
+	margin-top:-140px;
+	margin-bottom: 40px;
+	margin-right: -140px;
+	width: 470px;
+	max-width: 140%;
+}
+.bordered-box-readmorebtn {
+	position: absolute;
+	transform: rotate(-90deg);
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #2c45e2;
+	font-size: 18px;
+	bottom: 46px;
+	right: -100px;
+}
+.bordered-box-readmorebtn i {
+	margin-right: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
