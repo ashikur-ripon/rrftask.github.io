@@ -1,0 +1,147 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-size: 16px;
+	background-color: #F7F8F8;
+}
+a:hover { text-decoration: none }
+.section-padding {
+	padding: 80px 0;
+}
+
+.single-pricing-item {
+	padding: 30px;
+	text-align: center;
+	background-color:#FFF;
+	border-top: 3px solid #2CC794;
+	padding-bottom: 60px;
+	transition: all ease .3s;
+}
+.pricing-count {
+	height: 120px;
+	width: 120px;
+	background: #2CC794;
+	border-radius: 50%;
+	color: #fff;
+	margin: 30px auto;
+	position: relative;
+}
+.pricing-count p {
+	margin: 0;
+}
+.pricing-count span {
+	font-weight: 700;
+	display: block;
+	font-size: 28px;
+	padding-top: 25px;
+}
+.pricing-count:after {
+	position: absolute;
+	content: "";
+	left: -6%;
+	top: -6%;
+	width: 112%;
+	height: 112%;
+	border: 3px solid #2CC794;
+	border-radius: 50%;
+}
+.pricing-details {
+	margin-bottom: 50px;
+}
+.pricing-details p {
+	color: #616161;
+}
+
+.bordered-btn, .boxed-btn {
+	border: 2px solid #2CC794;
+	color: #2CC794;
+	padding: 15px 30px;
+	font-size: 17px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-radius: 50px;
+}
+.boxed-btn {
+	background-color: #2CC794;
+	color: #fff;
+}
+
+.single-pricing-item.theme-2 {
+	border-color:#FF5E3D;
+}
+.theme-2 .pricing-count {
+	background: #FF5E3D;
+}
+.theme-2 .pricing-count:after {
+	border-color: #FF5E3D;
+}
+.theme-2 .boxed-btn {
+	border-color: #FF5E3D;
+	color: #fff;
+	background-color: #FF5E3D;
+}
+
+.single-pricing-item.theme-3 {
+	border-color:#B378F9;
+}
+.theme-3 .pricing-count {
+	background: #B378F9;
+}
+.theme-3 .pricing-count:after {
+	border-color: #B378F9;
+}
+.theme-3 .bordered-btn {
+	border-color: #B378F9;
+	color: #B378F9;
+}
+
+
+.single-pricing-item:hover {
+	transform: scale(1.03);
+	cursor: pointer;
+}
+
+.bordered-btn, .boxed-btn, .theme-3 .bordered-btn {
+	transition: all ease .3s;
+}
+.bordered-btn:hover {
+	background-color: #2CC794;
+	color: #fff;
+}
+.boxed-btn:hover {
+	background-color: #fff;
+	color: #FF5E3D;
+}
+.theme-3 .bordered-btn:hover {
+	background-color: #B378F9;
+	color: #fff;
+}
+
+
+
+
