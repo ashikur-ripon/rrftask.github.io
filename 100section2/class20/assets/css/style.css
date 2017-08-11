@@ -1,0 +1,126 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-size: 16px;
+	line-height: 1.7;
+}
+a:hover { text-decoration: none }
+a:focus {
+	outline: 0;
+	text-decoration: none;
+}
+.section-padding {
+	padding: 80px 0;
+}
+
+
+.features-menu {
+	margin: 0 0 50px;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+.features-menu li {
+	display: inline-block;
+}
+.features-menu li a {
+	display: block;
+	color: #333;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0 20px;
+	border-bottom: 4px solid transparent;
+}
+.features-menu li.active a {
+	border-color: #E9C500;
+}
+
+
+.single-feature-item {
+	position: relative;
+	height: 500px;
+	display: table;
+	width: 100%;
+}
+
+.feature-bg-1 {background-image:url(../img/bg-1.png);}
+.feature-bg-2 {background-image:url(../img/bg-2.jpg);}
+.feature-bg-3 {background-image:url(../img/bg-3.jpg);}
+.feature-bg-4 {background-image:url(../img/bg-4.jpg);}
+.feature-bg {
+	background-color: #ddd;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 500px;
+	background-size: cover;
+	background-position: center;
+}
+.feature-text {
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 550px;
+}
+.feature-text h4 {
+	font-size: 30px;
+	opacity: .5;
+}
+.feature-text h2 {
+	font-size: 25px;
+	font-weight: 500;
+}
+.boxed-btn {
+	display: inline-block;
+	padding: 12px 30px;
+	background: #E9C500;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 40px;
+	margin-top: 15px;
+	border: 1px solid #E9C500;
+	transition: all ease .3s;
+}
+.boxed-btn:hover {
+	color: #E9C500;
+	background-color:#FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
