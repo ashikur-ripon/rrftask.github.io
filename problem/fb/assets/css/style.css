@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i');
+
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: #E9EBEE;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+}
+a:hover { text-decoration: none }
+
+
+
+
+
+.header-area{
+	background: #2980b9;
+	color: #fff;
+	padding: 5px 0;
+}
+.header-area .logo {
+	width: 20px;
+}
+.header-area ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.header-area li {
+	display: inline-block;
+}
+.header-area li a {
+	color: #fff;
+	display: block;
+	padding: 10px 25px;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+
+.content-area {
+	padding-top: 5px;
+}
+.leftsite-menu {}
+.leftsite-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-left: -45px;
+}
+.leftsite-menu li {
+}
+.leftsite-menu li a {
+	font-size: 16px;
+	font-weight: 500;
+	padding: 8px 10px;
+	display: block;
+	color: #90949C;
+	transition: all 0.2s ease;
+}
+.leftsite-menu li a.active {
+	color: #1D2129;
+	background: #FFFFFF; 
+}
+
+.leftsite-menu li:hover a {
+	color: #1D2129;
+	background: #FFFFFF; 
+	border-radius: 3px;
+}
+.leftsite-menu li:active a {
+	font-weight: 700;
+}
+.main-content iframe{
+	width: 500px;
+	height: 700px;
+	background: red;
+}
+/* width="500" height="700" style="border:none;overflow:hidden */
+
+
+
+
+
