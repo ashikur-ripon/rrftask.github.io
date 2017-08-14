@@ -1,0 +1,709 @@
+/*
+	Template Name: Flick_SEO
+	Author: Ashikur Rahman Ripon
+	Email: ashikur.amath@gmail.com
+*/
+
+
+/* =====================
+CSS Index
+
+* Base CSS
+* Header CSS
+* Hero area CSS
+* Service Area CSS
+* About Area CSS
+* Testimonial Area CSS
+* Resources Area CSS
+* Blog Area CSS
+* Pricing Area CSS
+* Partner Area CSS
+* Footer Area CSS
+* Hover CSS
+* Other CSS
+================*/
+
+
+
+/* =====================
+Base CSS
+================*/
+
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,500,500i,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Catamaran:300,400,500');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 400;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;	
+	font-size: 15px;
+	line-height: 1.7;
+}
+a:hover { text-decoration: none }
+html, body {
+	height: 100%;
+}
+.section-padding {padding: 50px 0;}
+.padding-50 {padding: 50px 0;}
+input[type=email], input[type=url]{
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 400;
+	color: #888888;
+	font-size: 14px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	width: 33%;
+	padding: 11px 25px;
+}
+input[type=submit] {
+	font-family: 'Fira Sans', sans-serif; 	
+	font-weight: 400;
+	color: #ffffff;
+	background: #4442f2;
+	border-radius: 5px;
+	border: 1px solid #4442f2;
+	font-size: 16px;
+	transition: all ease .3s;
+	width: 25%;
+	padding: 10px 10px;
+}
+.boxed-btn {
+	font-family: 'Fira Sans', sans-serif; 	
+	font-weight: 400;
+	background: #4442f2;
+	border: 1px solid #4442f2;
+	color: #ffffff;
+	padding: 12px 22px;
+	border-radius: 5px;
+	font-size: 16px;
+	transition: all ease .5s;
+	display: inline-block;
+}
+
+
+
+
+
+
+/* =====================
+Header CSS
+================*/
+.header-area {
+	background: #ffffff;
+	border-bottom: 2px solid #eeeeee;
+	width: 100%;
+	z-index: 999;
+	position: relative;
+    top: 0;
+}
+.header-area .logo {
+	padding-top: 12px;
+	transition: all ease .3s;
+}
+.header-area .logo img {
+	height: 50px;
+}
+.mainmenu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+}
+.mainmenu li {
+	display: inline-block;
+}
+.mainmenu li a {
+	display: block;
+	padding: 25px 22px;
+	color: #222222;
+	font-size: 16px;
+}
+
+/* sticky menu*/
+.is-sticky .header-area a {
+	color: #000; 
+}
+.is-sticky .header-area:after {
+	background: #fff;
+	opacity: .8;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	z-index: -1;
+	box-shadow: 0 0 10px #ccc;
+}
+.sticky-wrapper {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	z-index: 999;
+}
+.is-sticky .mainmenu a {
+    color: #000;
+}
+.header-area:after, .logo img, .mainmenu  a {
+	transition: .4s;
+}
+.is-sticky .logo img {
+	height: 40px;
+	width: auto;
+	padding-top: 0;
+}
+.is-sticky .mainmenu li a {
+	padding: 18px 18px;
+}
+.is-sticky .header-top-area {
+	transition: all ease .3s;
+}
+.is-sticky .header-top-area {
+	opacity: 0;
+	visibility: hidden;
+}
+
+
+/* slicknav menu */
+.slicknav_menu {display: none;}
+#mobile-menu-wrap {
+	margin-top: 0;
+}
+.slicknav_menu {
+	background-color: transparent;
+}
+.slicknav_btn {
+	float: none;
+	display: inline-block;
+	background-color: #4442f2;
+	text-shadow: 0 0 0;
+}
+.slicknav_nav {
+	background-color: #7f8c8d;
+	text-align: center;
+	color: #ffffff;
+	padding: 20px 0;
+}
+.slicknav_nav a {
+	color: #ffffff;
+	font-size: 16px;
+}
+.slicknav_nav .slicknav_row:hover,
+.slicknav_nav a:hover {
+	background-color: #4442f2;	
+	border-radius: 0;
+	color: #fff; 
+}
+.slicknav_menu h5 {
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+.slicknav_nav ul {
+	margin-left: 0;
+}
+#mobile-menu-wrap {
+  margin-bottom: 8px;
+  margin-top: -50px;
+  text-align: right;
+}
+
+
+
+/* =====================
+Hero Area CSS
+================*/
+
+.hero-area {
+	text-align: center;
+	height: 100%;
+}
+.hero-area-text h1 {
+	font-weight: 500;
+	color: #222222;
+	font-size: 36px;
+}
+.hero-area-text p {
+	font-family: 'Maven Pro', sans-serif;
+	color: #888888;
+	padding-bottom: 50px;
+}
+
+.hero-area-form input {
+	margin-right: 2%;
+}
+.hero-area-form input:last-child {
+	margin-right: 0;
+}
+.hero-area-table {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.hero-area-inner {
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	width: 100%;
+}
+
+
+/* =====================
+Service Area CSS
+================*/
+
+.single-service-box {
+	width: 25%;
+	float: left;
+	text-align: center;
+	border-right: 1px solid #dddddd;
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	height: 350px;
+	display: table;
+	padding: 15px;
+}
+.service-box-inner {
+	display: table-cell;
+	vertical-align: middle;
+}
+.single-service-box:last-child {
+	border-right: 0;
+}
+.service-icon i {
+	color: #4442f2;
+	font-size: 55px;
+}
+.single-service-box h2 {
+	color: #002222;
+	font-size: 24.01px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.single-service-box p {
+	color: #656565;
+}
+
+
+/* =====================
+About Area CSS
+================*/
+
+.about-img {
+	text-align: right;
+}
+.about-text h2 {
+    color:#222222;	
+	font-size: 36px;
+}
+.about-text p {
+	color: #666666;
+	font-size: 16px;
+	padding-bottom: 25px;
+}
+
+
+
+/* =====================
+Testimonial Area CSS
+================*/
+
+.testimonial-area {
+	background: #4442f2;
+	text-align: center;
+}
+
+.testimonial-img img, .owl-carousel .owl-item .testimonial-img img{
+	width: 100px;
+	border-radius: 50%;
+	text-align: center;
+	display: inline-block;
+}
+
+.testimonial-content {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #fff;
+}
+.testimonial-content h2 {
+	font-size: 24px;
+	font-style: italic;
+	line-height: 1.5;
+	padding-top: 25px;
+}
+.testimonial-content p {
+	font-size: 16px;
+	color: #ddd;
+	margin: 0;
+}
+
+.testimonial-carousel .owl-dots {
+	text-align: center;
+	margin-top: 20px;
+}
+.testimonial-carousel .owl-dots div {
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	display: inline-block;
+	background: #fff;
+	margin: 2px;
+}
+.testimonial-carousel .owl-dots div.active {
+	background-color: #222222;
+}
+
+
+/* =====================
+Resources Area CSS
+================*/
+.resources-area-text h2 {
+	color:#888888;	
+	font-size: 22px;
+}
+.resources-area-text h1 {
+	color:#222222;	
+	font-size: 36px;
+}
+.resources-area-text p {
+	color:#666666;	
+}
+.resources-area-text {
+	margin-bottom: 70px;
+}
+.resources-area-text a.boxed-btn {
+	margin-top: 30px;
+}
+.resources-area-video iframe {
+	height: 270px;
+	width: 100%;
+	border: none;	
+	margin-top: 50px;
+	border-radius: 5px;
+	box-shadow: 0 0 20px 15px #ececec;
+}
+
+
+/* =====================
+Blog Area CSS
+================*/
+.single-blog-item {
+	padding: 0 20px;
+}
+span.blog-date {
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 400;
+	color:#888888;	
+	font-size: 14px;	
+}
+.single-blog-item h2 {
+	color:#222222;	
+	font-size: 26px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.single-blog-item p {
+	color:#666666;
+	margin: 0;
+}
+
+/* =====================
+Pricing Area CSS
+================*/
+h2.pricing-title {
+	font-size: 36px;
+	color: #222;
+	padding-bottom: 20px;
+}
+.single-pricing-item {
+	font-family: 'Catamaran', sans-serif;
+	border: 1px solid #dddddd;	
+	text-align: center;
+	border-radius: 5px;
+	transition: all ease .5s;
+}
+.pricing-header {
+	font-weight: 300;
+	border-bottom: 1px solid #dddddd;
+	padding: 15px 0;
+	position: relative;
+	transition: all ease .5s;
+}
+.pricing-header p {
+	font-size: 16px;
+	color: #4442f2;
+	margin: 0;
+	transition: all ease .5s;
+}
+.pricing-header p span {
+	font-size: 60px;
+	display: block;
+	line-height: 1;
+	transition: all ease .5s;
+}
+
+.pricing-header .pricing-comment {
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 500;
+	color: #222222;	
+	font-size: 18px;
+	transition: all ease .5s;
+}
+.pricing-details {
+	padding: 30px 0;
+	transition: all ease .5s;
+}
+.pricing-details p{
+	font-family: 'Maven Pro', sans-serif;
+	color: #888888;
+	padding-bottom: 5px;
+	transition: all ease .5s;
+}
+.pricing-details .bordered-btn {
+	margin-top: 20px;
+	transition: all ease .5s;
+}
+.bordered-btn {
+	font-weight: 500;
+	color: #222222;
+	font-size: 16px;
+	border: 1px solid #dddddd;
+	display: inline-block;
+	padding: 10px 30px;
+	border-radius: 5px;
+}
+
+
+/* =====================
+Partner Area CSS
+================*/
+.partner-area {
+	background: #f5f5f5;
+	padding: 70px 0;
+}
+.partner-area p {
+	font-family: 'Fira Sans', sans-serif; 	
+	font-weight: 400;
+	color: #222222;
+	font-size: 26px;
+	margin: 0;
+	padding: 0;
+	line-height: 1.2;
+	margin-left: 10px;
+	padding-top: 10px;
+}
+
+.single-logo-item img {
+    transition: all 0.4s ease 0s;
+    margin: 0 auto;
+    max-width: 120px;
+    filter: grayscale(100%);
+    height: 40px;
+	margin: 0;
+	padding: 0;
+}
+.partner-logo {
+	padding-left: 20px;
+}
+
+/* =====================
+Footer Area CSS
+================*/
+.footer-area {
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 400;	
+	background: #17171b;
+	padding: 100px 0;
+}
+.footer-top {
+	text-align: center;
+	border-bottom: 1px solid #292934;
+	padding-bottom: 80px;
+}
+.footer-top p {
+	color: #b9b9b9;
+	font-size: 14px;
+}
+.footer-top h2 {
+	color: #fff;
+	font-size: 24px;
+	padding-bottom: 25px;
+}
+.footer-top input {
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 500;
+}
+.footer-top input[type=email] {
+    color: #888888;
+    font-size: 14px;
+	width: 70%;
+	margin: 0 auto;
+    border-radius: 50px;
+}
+.footer-top input[type=submit] {
+    border-radius: 50px;
+	margin-left: -25%;
+}
+.footer-bottom {
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 400;	
+	color: #b9b9b9;
+	font-size: 14px;
+	padding-top: 80px;
+
+}
+.footer-bottom h4 {	
+	color: #eeeeee;
+	font-size: 18px;
+	margin-bottom: 25px;
+	position: relative;
+}
+.footer-bottom h4:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    width: 55%;
+    background: #eeeeee;
+}
+
+.footer-bottom p {	
+	padding: 0;
+	margin-bottom: 12px;
+}
+.footer-bottom a {	
+	color: #fff;
+	font-size: 16px;
+	display: block;
+	margin-bottom: 10px;
+}
+.social-links {
+	float: right;
+	overflow: hidden;
+	padding-top: 15px;
+}
+.social-links a {
+	font-size: 24px;
+	display: inline-block;
+	padding: 10px;
+}
+.footer-bottom .copyrights {
+	display: block;
+	float: right;
+	color: #aaaaaa;
+	font-size: 13px;
+}
+
+
+
+
+/* =====================
+Hover CSS
+================*/
+.boxed-btn:hover, input[type=submit]:hover {
+	background: #ffffff;
+	color: #4442f2;
+	border-color: #4442f2;
+}
+input {
+	transition: all ease .3s;
+}
+input:focus {
+	outline: 0;
+	border-color: #4442f2;
+}
+a {
+	transition: .5s;
+}
+a:hover {
+	color: #4442f2;
+}
+.mainmenu li a {
+	position: relative;
+	transition: all ease .5s;
+}
+.mainmenu li a:after {
+	position: absolute;
+	content: "";
+	left: 15%;
+	bottom: 20px;
+	height: 2px;
+	width: 0;
+	background: #4442f2;
+	opacity: 0;
+	visibility: hidden;
+	transition: all ease .5s;
+}
+.mainmenu li a:hover:after {
+	width: 73%;
+	opacity: 1;
+	visibility: visible;
+}
+.mainmenu li a:hover {
+	color :#4442f2;
+}
+
+.single-pricing-item:hover {
+	box-shadow: 0 0 5px #ccc;
+	cursor: pointer;
+}
+.single-pricing-item:hover .pricing-header {
+	background: #4442f2;
+	color: #fff; 
+}
+.single-pricing-item:hover .pricing-header, 
+.single-pricing-item:hover .pricing-header p, 
+.single-pricing-item:hover .pricing-header p span {
+	color: #fff; 
+}
+.bordered-btn:hover {
+	background-color: #4442f2; 
+	color: #fff;
+}
+
+.single-logo-item:hover  img {
+    filter: grayscale(0);
+	cursor: pointer;
+}
+
+
+/* =====================
+Other CSS
+================*/
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    width: 55px;
+    height: 55px;
+    background: url(../img/top.png) no-repeat;
+}
+
+

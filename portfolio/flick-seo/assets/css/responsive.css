@@ -1,0 +1,159 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+.hero-area-text h1 {
+	font-size: 35px;
+}  
+    
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+
+
+/* Tablet & Mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+.section-padding {padding: 50px 0;}
+.slicknav_menu {display: block;}
+
+.mainmenu {
+	display: none;
+}
+.single-service-box {
+	width: 50%;
+	border-bottom: none;
+	border-top: none;
+}
+.single-service-box:nth-child(1),
+.single-service-box:nth-child(2) {
+	border-top: 1px solid #dddddd;
+	
+}
+.single-service-box:nth-child(2n+1), 
+.single-service-box:nth-child(2n+2) {
+	border-bottom: 1px solid #dddddd;
+}
+
+.about-img {
+  padding-top: 50px;
+}
+.resources-area-text a.boxed-btn {
+	margin-top: 20px;
+}
+.single-blog-item {
+	margin-bottom: 50px;
+}
+.single-pricing-item {
+	margin-top: 30px;
+}
+.footer-bottom .copyrights {
+  padding-left: 61px;
+  padding-top: 10px;
+}
+ 
+ 
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.hero-area-text h1 {
+	font-size: 24px;
+} 
+.hero-area input[type="email"], input[type="url"] {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.hero-area input[type="submit"] {
+	width: 100%;
+} 
+.single-service-box {
+	width: 90%;
+	border: 1px solid #dddddd;
+	padding: 10px;
+	margin: 0 auto;
+	margin: 15px;
+}
+.single-service-box:last-child {
+  
+	border: 1px solid #dddddd;
+}
+.about-img {
+	text-align: center;
+	padding: 40px;
+}
+.about-text {
+	padding: 0 20px;
+}
+.about-text h2 {
+	font-size: 28px;
+}
+.about-text p {
+	font-size: 14px;
+}
+
+.testimonial-content h2 {
+	font-size: 18px;
+	padding-top: 15px;
+}
+.testimonial-content p {
+	font-size: 14px;
+	margin-top: -8px;
+}
+.testimonial-carousel .owl-dots {
+	margin-top: 3px;
+}
+
+
+.resources-area-text {
+	margin-bottom: 50px;
+	padding: 0 20px;
+}
+.resources-area-text h2 {
+	font-size: 16px;
+}
+.resources-area-text h1 {
+	font-size: 28px;
+}
+.resources-area-text p {
+	font-size: 14px;
+}
+
+.partner-area p {
+	padding-bottom: 50px;
+	text-align: center;
+}
+.footer-top input[type="email"] {
+
+}
+.footer-top input[type="submit"] {
+;
+}
+.footer-top h2 {
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+.footer-bottom p:last-child {
+	margin-bottom: 40px;
+}
+.social-links {
+	float: left;
+	padding-top: 20px;
+	margin-left: -10px;
+}
+.footer-bottom .copyrights {
+	float: left;
+	margin: 0;
+	padding:0;
+}
+
+    
+}
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
