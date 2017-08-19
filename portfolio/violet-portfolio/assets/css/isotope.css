@@ -1,0 +1,131 @@
+
+* { box-sizing: border-box; }
+/* ---- button ---- */
+
+.button {
+  display: inline-block;
+  padding: 5px 25px;
+  background: #fff;
+  border: 1px solid #546871;
+  color: #222;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all ease .3s;
+}
+
+.button:hover {
+  background-color: #7f56fd;
+  color: #fff;
+}
+.button:focus {
+	outline: 0;
+}
+
+
+
+.button:active,
+.button.is-checked {
+  background-color: #7f56fd;
+}
+
+.button.is-checked {
+  color: #fff;
+}
+
+/* ---- button-group ---- */
+
+.button-group {
+  margin-top: 45px;
+  margin-bottom: 35px;
+  margin-left: 23%;
+}
+
+.button-group:after {    /* Not Clear */
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  float: left;
+  border-radius: 10px;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+
+/* ---- isotope ---- */
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  width:32%;
+  margin: 5px;
+}
+
+
+.element-item img {
+	height: 100%;
+	width: 100%;
+}
+.element-item > * {  
+  margin: 0;
+  padding: 0;
+}
+
+/* own css */
+.shadow {
+	background:#7f56fd;
+	height: 100%;
+	width: 100%;
+	top: -100%;
+	position: absolute;
+	transition: .6s;
+	opacity: .95;
+    border-radius: 5px;
+}
+.element-item:hover .shadow {
+	top: 0;
+	cursor: pointer;
+}
+.shadow-inner-text {
+	position: absolute;
+	left: 25px;
+	bottom: 10px;
+	color:#ffffff;
+}
+.shadow-inner-text h3 {
+	font-size: 20px;
+	margin: 0;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+.icon-style {
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #fff;
+	position: absolute;
+	top: 45%;
+	left: 45%;
+}
+.icon-style i {
+	color: #7b54f4;
+}
+
+
+
+

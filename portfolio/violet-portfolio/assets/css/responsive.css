@@ -1,0 +1,198 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+.mainmenu ul.nav.navbar-nav li a {
+    padding: 30px 15px;;
+}  
+.testimonial-slides .owl-dots {
+	margin-top: -40px;
+}
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.header-area .logo {
+	padding-top: 20px;
+	transition: all ease .3s;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.header-area .logo img {
+	height: 25px;
+}
+.mainmenu {
+	text-align: center;
+}
+.mainmenu ul.nav.navbar-nav li a {
+    padding: 15px 15px;;
+} 
+.is-sticky .mainmenu ul.nav.navbar-nav li a {
+	padding: 10px 14px;
+	padding-bottom: 15px;
+}
+    
+}
+/* Tablet $ Mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+.navbar-toggle {
+	background-color: #FFF;
+}
+
+
+.about-content  {
+	padding-left: 70px;
+	padding-top: 0;
+}
+.single-service-item {
+  margin-bottom: 35px;
+  padding: 30px 40px;
+}
+.counter-icon {
+  font-size: 50px;
+}
+.counter {
+  font-size: 25px;
+}
+.counter-text {
+  font-size: 15px;
+}
+.single-counter-item {
+  padding-left: 50px;
+}
+.testimonial-slides .owl-dots {
+	margin-top: -50px;
+}
+.single-team-item {
+	margin-bottom: 30px;
+}
+.single-blog-box {
+	margin-bottom: 30px;
+}
+.single-blog-box:last-child {
+	margin-bottom: 0;
+}
+.footer-top ul li {
+  padding: 0 10px;
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.hero-area-content-tablecell h2 {
+  font-size: 30px;
+}  
+.social-links {
+  margin-right: -55px;
+  right: 50%;
+}
+.about-img {
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.about-area-info p {
+  margin-right: 80px;
+}
+.single-skill-item1, .single-skill-item2, .single-skill-item3 {
+  margin-bottom: 10px;
+}
+.single-counter-table {
+  display: table;
+  margin: 0 auto 20px;
+}
+.counter-area {
+	padding: 40px 0;
+}
+.testimonial-slides .owl-dots {
+	margin-top: 10px;
+}
+.team-item-front-img img {
+  width: 100%;
+}
+    
+}
+
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+    background-color: #263238;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #7E5CEC;
+}
+.navbar-toggle {
+  background-color:#FFF;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  float: right;
+  margin-bottom: 0;
+  margin-right: -30px;
+  margin-top: -35px;
+  padding: 9px 10px;
+  position: relative;
+}
+.navbar {
+	min-height: 0;
+}
+
+
+.mainmenu {
+    position: relative;
+    padding-right: 80px;
+}
+.mainmenu ul.nav.navbar-nav {
+	float: none;
+	text-align: center;
+	padding: 0;
+}
+.mainmenu ul.nav.navbar-nav li {
+    float: none;
+    display: block;
+    position: relative;
+	padding: 0 40px;
+}
+.mainmenu ul.nav.navbar-nav li a {
+    color: #fff;
+    padding: 10px;
+	font-size: 13px;
+	display: block;
+}
+.mainmenu ul.nav.navbar-nav li a:hover { background: #7E5CEC; }
+.mainmenu ul.nav.navbar-nav li.active:before {
+    display: none;
+}
+
+.header-area .logo {
+	padding-top: 20px;
+	transition: all ease .3s;
+}
+.header-area .logo img {
+	height: 30px;
+}
+
+.is-sticky .logo img {
+	height: 30px;
+}
+.is-sticky .mainmenu ul.nav.navbar-nav li a {
+	padding: 10px 15px;
+	margin: 5px 0;
+}
+.is-sticky .mainmenu ul.nav.navbar-nav li.active a {
+    color: #fff;
+}
+.is-sticky .header-area {
+	padding-bottom: 15px;
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+
+
+}
