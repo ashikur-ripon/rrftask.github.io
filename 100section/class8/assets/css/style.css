@@ -1,0 +1,92 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.gray-bg {background-color: #FAFAFA;}
+.section-padding {padding: 80px 0;}
+.secton-title h2 {
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.secton-title {margin-bottom: 50px;}
+
+.bg-1 {background-image: url(../img/1.jpg);}
+.bg-2 {background-image: url(../img/2.jpg);}
+.bg-3 {background-image: url(../img/3.jpg);}
+.bg-4 {background-image: url(../img/4.jpg);}
+.service-bg {
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+}
+.service-text {
+    padding: 15px;
+}
+.service-text h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+.service-text p {
+    color: #999;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.readmore-btn {
+    display: inline-block;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px 0;
+    transition: all ease .3s;
+    color: #3ECF7C;
+}
+.readmore-btn:hover {
+    background: #3ECF7C;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.readmore-btn i.fa {
+    padding-left: 5px;
+}
+.single-service-item {
+    transition: all ease .3s;
+}
+.single-service-item:hover {
+    box-shadow: 0 0 20px #3ECF7C;
+    cursor: pointer;
+}
+
+
