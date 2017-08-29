@@ -2,7 +2,6 @@
 
 
 
-
 /* Base CSS */
 .alignleft {
     float: left;
@@ -813,21 +812,24 @@ ul.portfolio-filter li:hover {
 	height: 100%;
 }
 .team-item-back {
-	transition-timing-function: ease-out;
-	transition: 1s;
+	transition: all ease .5s;
 	position:absolute;
 	left: 0;
-	top: -100%;
 	width: 100%;
 	height: 100%;
 	background:#fff;
+    transform: scale(.1);
+    opacity: 0;
+    visibility: hidden;
 }
 .single-team-item:hover .team-item-front {
 	visibility: hidden;
 }
 .single-team-item:hover .team-item-back {
-	top: 0;
 	cursor: pointer;
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
 }
 
 
