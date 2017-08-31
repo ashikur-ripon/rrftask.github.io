@@ -1,0 +1,48 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Tablet + Mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+    .single-portfolio-item {
+        width: 50%;
+    } 
+    .portfolio-list {
+        margin-bottom: 368px;
+    }
+    
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .single-portfolio-item,
+    .single-portfolio-item.boxed {
+        width: 100%;
+    }  
+    .footer-area {
+        width: 100%;
+    }
+    .footer-area .col-md-3 {
+        margin-bottom: 40px;
+    }
+    .portfolio-list {
+        margin-bottom: 600px;
+    }
+    .single-portfolio-item {
+        height: 430px;
+    }
+    .offcanvas-menu {
+        width: 100%;
+        right: -100%;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
