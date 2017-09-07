@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+	font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+
+.section-padding {padding: 80px 0;}
+.section-heading {
+  margin-bottom: 65px;
+}
+.section-heading h2 {
+  font-size: 32px;
+}
+body {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+
+.service-box-img {
+  background: #ddd;
+  height: 220px;
+  position: relative;
+}
+.service-box-img h2 {
+  background: #F97230;
+  color: #fff;
+  font-size: 20px;
+  padding: 14px;
+  position: absolute;
+  left: 10%;
+  width: 80%;
+  bottom: -35px;
+  z-index: 2;
+}
+.single-service-box {
+  border: 1px solid #ddd;
+}
+.service-content {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.service-content p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+.read-more-btn {
+  font-weight: 700;
+  color: #000;
+  font-size: 16px;
+}
+.read-more-btn i.fa {
+  margin-left: 5px;
+}
+
+.service-box-img {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+.service-box-img-1 {background-image: url(../img/slide-bg-1.jpg);}
+.service-box-img-2 {background-image: url(../img/slide-bg-2.jpg);}
+.service-box-img-3 {background-image: url(../img/slide-bg-3.jpg);}
