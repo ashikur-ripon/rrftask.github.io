@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus,input:focus,textarea:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+	font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+.section-padding {padding: 80px 0;}
+
+
+.white-box {
+  box-shadow: 0 0 15px #ddd;
+  padding: 60px 30px;
+}
+.white-box h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+input[type=text], input[type=email], textarea{
+    background: #F9F9F9;
+    border: none;
+    padding: 15px;
+}
+input[type=submit], submit[type=input] {
+    background: #4DAEFE;
+    border: none;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contact-form textarea {
+    height: 120px;
+    resize: none;
+}
+.contact-form input[type=submit] {
+    width: auto;
+}
+.conatct-link {
+  background: #4DAEFE;
+  padding: 50px;
+  margin: 0 50px;
+    padding-bottom: 130px;
+}
+.conatct-link h2 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+    margin-bottom: 40px;
+}
+.contact-info, p.contact-info a {
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.7;
+}
+.contact-info {
+    position: relative;
+    padding-left: 42px;
+    margin-bottom: 30px;
+}
+.contact-info i.fa {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    font-size: 20px;
+}
+.social-icons a {
+    color: #fff;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #999;
+    margin-right: 5px;
+    transition: all ease .3s;
+}
+.social-icons a:hover {
+    color: #4DAEFE;
+    box-shadow: 0 0 0;
+}
+
+
