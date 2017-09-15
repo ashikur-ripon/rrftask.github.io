@@ -1,0 +1,67 @@
+/* Base CSS */
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+a:focus {
+	outline: 0 solid;
+
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+body {
+	color: #8b8b8b;
+	font-size: 14px;
+	line-height: 2;
+	font-weight: 300;
+}
+a:hover { text-decoration: none }
+ol,ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.company-timeline.cd-horizontal-timeline .events-content ol li{
+	padding: 0;
+}
+.company-timeline.cd-horizontal-timeline .events-content ol li img{
+	height: 310px;
+	width: 100%;
+}
+
+.timelineContent {
+	padding-left: 40px;
+	padding-top: 60px
+}
+
+.timelineContent h4 {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+.timelineContent h2 {
+color: #373737;
+font-size: 18px;
+font-weight: 300;
+margin-bottom: 25px;
+}
