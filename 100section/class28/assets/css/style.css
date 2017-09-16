@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+	font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+
+
+
+.footer-area {
+  background: #14ADF3;
+  padding: 100px 0;
+}
+.footer-area, .footer-area a {
+  color: #fff;
+}
+body {
+  font-size: 15px;
+  line-height: 1.5;
+}
+.social-links a {
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 20px;
+}
+.footer-wid h2 {
+  margin-bottom: 40px;
+}
+.social-links {
+  margin-top: 30px;
+}
+.footer-wid ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-wid li {
+  margin-bottom: 6px;
+}
+.contact-info {
+  position: relative;
+  padding-left: 33px;
+  font-size: 17px;
+}
+.contact-info i.fa {
+  position: absolute;
+  left: 0;
+  top: 4px;
+  font-size: 16px;
+}
+.email-subscribe-form input[type=email] {
+  border: none;
+  color: #000;
+  padding: 5px 8px;
+  width: 70%;
+}
+.email-subscribe-form input[type="submit"] {
+  color: #14ADF3;
+  background: #fff;
+  border: none;
+  padding: 5px;
+  width: 26%;
+  font-weight: 500;
+}
+.email-subscribe-form {
+  margin-top: 20px;
+}
+.email-subscribe-form p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.copyright-area,.copyright-area a {
+  color: #999;
+}
+.copyright-area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+.copyright-area li {
+  display: inline-block;
+}
+.copyright-area li:after {
+  content: "|";
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.copyright-area li:last-child:after {
+  display: none;
+}
+.copyright-area {
+  padding: 20px 0;
+  background: #fff;
+}
+
+.email-subscribe-form h2 {
+    font-size: 22px;
+    margin-bottom: 12px;
+    margin-top: 30px;
+}
+.section-padding {
+    background: #000;
+    padding: 69px 0;
+}
