@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+	font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+
+.single-project-bg-1 {background-image: url(../img/1.jpg);}
+.single-project-bg-2 {background-image: url(../img/2.jpg);}
+.single-project-bg-3 {background-image: url(../img/3.jpg);}
+.single-project-bg-4 {background-image: url(../img/4.jpg);}
+.single-project-bg-5 {background-image: url(../img/5.jpg);}
+.single-project-bg-6 {background-image: url(../img/6.jpg);}
+.single-project-bg-7 {background-image: url(../img/7.jpg);}
+.single-project-bg-8 {background-image: url(../img/8.jpg);}
+.single-project-bg-9 {background-image: url(../img/9.jpg);}
+.single-project-item {
+    height: 300px;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-color: #ddd;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+}
+.project-hover:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #000;
+    z-index: -1;
+    opacity: .6;
+}
+.project-hover {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all ease .3s;
+}
+.single-project-item:hover .project-hover {
+    opacity: 1;
+}
+
+.section-padding{
+    padding: 80px 0;
+}
+.project-titles {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.project-titles li {
+    display: inline-block;
+    padding-right: 20px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+.single-project-item a,
+.single-project-item span,
+.project-titles li.active {
+    color: #00E8E8;
+} 
+.row.project-lists .col-md-4{
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+.row.project-lists {
+    margin-left: -7.5px;
+    margin-right: -7.5px;
+}
+.project-hover a {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-size: 20px;
+}
+.project-hover h4 {
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.project-hover h4 span {
+    display: block;
+    font-size: 80%;
+    margin-top: 10px;
+}
+.row.project-lists .col-md-4:nth-child(2) .single-project-item, 
+.row.project-lists .col-md-4:nth-child(4) .single-project-item, 
+.row.project-lists .col-md-4:nth-child(5) .single-project-item {
+    height: 615px;
+} 
+
+
+
