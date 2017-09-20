@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 500;
+    color: #262626;
+}
+body {
+    background: #EFEFF1;
+	font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    list-style: 1.7;
+    color: #9A9A9A;
+}
+a:hover { text-decoration: none }
+.section-padding {padding: 50px 0;}
+.bigger-text {
+    padding: 0 70px;
+}
+.bigger-text h1 {
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 50px;
+    margin-bottom: 30px;
+}
+.bigger-text p {
+    line-height: 1.9;
+}
+.boxed-btn {
+  display: inline-block;
+  background: #454BED;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+.box-shadow {
+    position: relative;
+    padding-top: 30px;
+}
+.box-shadow img {
+  position: relative;
+  z-index: 1;
+  width: 60%;
+  box-shadow: 0 0 50px #DADADC;
+}
+.box-shadow img:nth-child(2) {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+    height: 400px;
+}
+.box-shadow img:nth-child(3) {
+  position: absolute;
+  left: -50px;
+  bottom: -80px;
+  z-index: 3;
+  width: 70%;
+}
+.box-shadow img:nth-child(1) {
+  top: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
