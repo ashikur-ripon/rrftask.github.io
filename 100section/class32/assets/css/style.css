@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.single-promo-item {background-image: url(../img/1.jpg);}
+.single-promo-bg-2 {background-image: url(../img/2.jpg);}
+.single-promo-bg-3 {background-image: url(../img/3.jpg);}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+
+
+.single-promo-item {
+  height: 290px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  transition: .3s;
+  display: block;
+}
+.promo-content {
+  color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  transition: .3s;
+}
+.promo-content h2 {
+  font-size: 45px;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+.promo-content p {
+  font-size: 17px;
+  font-weight: 500;
+}
+.single-promo-item:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  content: "";
+  opacity: .6;
+  z-index: -1;
+}
+.single-promo-item:hover {
+  transform: scale(1.03);
+}
+.single-promo-item:hover .promo-content {
+  bottom: 40px;
+}
+
+/*
+.scrollToTop{
+	width:100px; 
+	height:130px;
+	padding:10px; 
+	text-align:center; 
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	top:75px;
+	right:40px;
+	display:none;
+	background: url('arrow_up.png') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+*/
+
+.scrollToTop {
+	width:70px; 
+	height:70px; 
+	text-align:center; 
+	background: #ccc;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	bottom:50px;
+	right:40px;
+	display:none;
+    font-size: 50px;
+    border-radius: 50%;
+    line-height: 70px;
+}
+
+
+
