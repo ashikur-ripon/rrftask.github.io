@@ -1,9 +1,26 @@
-(function($) {
-    'use strict';
-    
-    jQuery(document).ready(function() {
+(function ($) {
+	"use strict";
+
+    jQuery(document).ready(function($){
+
+
+        $(".embed-responsive iframe").addClass("embed-responsive-item");
+        $(".carousel-inner .item:first-child").addClass("active");
         
+        $('[data-toggle="tooltip"]').tooltip();
+
+
 
         
-    });// End of jQuery document function   
-}(jQuery));
+
+
+    });
+
+
+    jQuery(window).load(function(){
+
+        
+    });
+
+
+}(jQuery));	
