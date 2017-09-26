@@ -1,22 +1,26 @@
-(function($) {
-    'use strict';
-    
-    jQuery(document).ready(function() {
-        
-    	$('.menu-triger').on('click', function() {
-    		$('.off-canvas-menu, .off-canvas-overlay').addClass('active');
-    	})
-    	$('.menu-close').on('click', function() {
-    		$('.off-canvas-menu, .off-canvas-overlay').removeClass('active');
-    	})
+(function ($) {
+	"use strict";
 
-    	$('.off-canvas-overlay').on('click', function() {
-    		$(this).removeClass('active');
-    	})
-    	$('.off-canvas-overlay').on('click', function() {
-    		$('.off-canvas-menu').removeClass('active');
-    	})
+    jQuery(document).ready(function($){
+
+
+        $(".embed-responsive iframe").addClass("embed-responsive-item");
+        $(".carousel-inner .item:first-child").addClass("active");
+        
+        $('[data-toggle="tooltip"]').tooltip();
+
+
 
         
-    });// End of jQuery document function   
-}(jQuery));
+
+
+    });
+
+
+    jQuery(window).load(function(){
+
+        
+    });
+
+
+}(jQuery));	
