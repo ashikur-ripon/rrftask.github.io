@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
 /* Base CSS */
 .alignleft {
     float: left;
@@ -23,69 +25,87 @@ h4,
 h5,
 h6 {
     margin: 0 0 15px;
-    font-weight: 400;
-    font-family: 'Droid Serif', serif;
+    font-weight: 700;
 }
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #ecebf0;
-    line-height: 1.8
+
+	font-family: 'Roboto', sans-serif;
 }
 a:hover { text-decoration: none }
-.section-padding{
-    padding: 80px 0px
+
+
+
+
+
+
+
+
+body {
+  background: #EBEAF0;
+  color: #F1FDFE;
+  line-height: 1.7;
+  font-size: 16px;
 }
 .colored-bg {
-    background-color: #79d4d9;
-    position: relative;
-}
-.boxed-btn {
-    background-color: #f5f45e;
-    color: #5b5c4f;
-    display: inline-block;
-    padding: 12px 30px;
-    border-radius: 50px;
-    text-transform: uppercase;
-    font-weight: 700;
-    box-shadow: 0 15px 40px #e4e350;
-    font-size: 14px
-}
-
-.lady-img {
-  position: absolute;
-  bottom: 0;
-  right: -25px;
-}
-.slide-text {
-  max-width: 500px;
-  color: #fff;
-  padding-left: 100px;
-  padding-top: 100px;
-  padding-bottom: 163px;
-  font-size: 18px;
-  min-height: 773px;
-  line-height: 1.4
-}
-.slide-text h1 {
-  font-size: 55px;
-  margin-top: 50px;
-  margin-bottom: 60px;
-}
-.top-ticker-text {
-  text-transform: uppercase;
-  font-size: 18px;
+  background: #73DAE1;
   position: relative;
-  padding-bottom: 10px;
+    margin: 50px 0;
 }
-.top-ticker-text:after {
+.left-content {
+  padding-left: 100px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  max-width: 480px;
+    min-height: 580px;
+}
+.right-img {
   position: absolute;
-  content: "";
-  left: 0;
+  right: -25px;
   bottom: 0;
-  width: 30px;
+    max-height: 580px;
+}
+.top-tagline {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  position: relative;
+    padding-bottom: 10px;
+}
+.top-tagline:after {
+  position: absolute;
+  left: 2px;
+  bottom: 0;
+  width: 25px;
   height: 2px;
   background: #fff;
+  content: "";
 }
-.slide-text .boxed-btn {
-  margin-top: 30px;
+.left-content h1 {
+  font-weight: 300;
+  font-size: 41px;
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
+.bordered-btn {
+  background: #F3F450;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 12px 24px;
+  border-radius: 50px;
+  box-shadow: 0 10px 60px #99DCAF;
+  margin-top: 35px;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
