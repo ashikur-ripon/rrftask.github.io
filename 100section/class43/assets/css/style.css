@@ -18,6 +18,7 @@ body {
     font-family: 'Cabin', sans-serif;
     
 }
+html,body {height: 100%;}
 .hero-area-logo h3 {
     font-family: 'Herr Von Muellerhoff', cursive;
     font-size: 100px;
@@ -26,10 +27,188 @@ body {
     color: #c9a163;
     text-transform: capitalize;
 }
+.hero-area-logo h3 span {
+    font-size: 120%;
+}
 a:focus, a:active{
     color: #fff;
 }
 a:hover { text-decoration: none }
+.welcome-area {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.logo a {
+  color: #fff;
+  display: inline-block;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  font-size: 28px;
+  padding-bottom: 4px;
+}
+.logo a:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  content: "";
+}
+.logo h1 {
+  margin: 0;
+}
+.mainmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.mainmenu li {
+  display: inline-block;
+  padding-left: 40px;
+}
+.mainmenu li a {
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  position: relative;
+  z-index: 1;
+  font-weight: 300;
+  padding-top: 15px;
+    padding-bottom: 4px;
+}
+.mainmenu li a:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  content: "";
+  transform: scale(0);
+  transition: transform .3s ease-in-out 0s
+}
+.mainmenu ul li a:hover:after{
+    transform: scale(1);
+}
+.header-area {
+  padding: 15px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+.hero-area-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.hero-area-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+  color: #FBFBFB;
+}
+.hero-area-text h2 {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 900;
+  font-size: 50px;
+  margin: 0;
+  margin-top: -16px;
+  margin-bottom: 15px;
+}
+.borderd-area {
+  overflow: hidden;
+  width: 335px;
+  margin: 0 auto;
+}
+.borderd-area i.fa {
+    float: left;
+    margin: 0 10px;
+    color: #C4A062;
+}
+.bordered-area-left, .bordered-area-right {
+    position: relative;
+    z-index: 1;
+    width: 45%;
+    height: 2px;
+    background: #fff;
+    float: left;
+    margin-top: 6px;
+}
+.bordered-area-left::before {
+	position: absolute;
+	left: 0;
+	top: -4px;
+	content: "";
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-left: 10px solid #fff;
+	border-bottom: 5px solid transparent;
+}
+.bordered-area-right:after {
+	position: absolute;
+	right: 0;
+	top: -4px;
+	content: "";
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-right: 10px solid #fff;
+	border-bottom: 5px solid transparent;   
+}
+.hero-area-text p {
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: 4px;
+	margin-top: 10px;
+}
+.scroll-to-about {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    font-size: 45px;
+    color: #fff;
+    width: 40px;
+    text-align: center;
+    margin-left: -20px;
+    opacity: .8;
+    transition: .3s;
+    animation-name: scrollToAbout;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+.scroll-to-about:hover {
+    opacity: 1;
+    color: #fff
+}
+@keyframes scrollToAbout{
+    0% {
+        bottom: 70px;
+        color: red
+    }
+    100% {
+        bottom: 20px;
+        color: yellow
+    }
+}
+
+
+/*
 .welcome-hero-area{
     background-image: url(../img/bg.jpg);
     background-size: cover;
@@ -214,3 +393,4 @@ body, html {
         color: yellow
     }
 }
+*/
