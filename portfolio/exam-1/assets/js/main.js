@@ -43,6 +43,21 @@
             return false;
         });
         
+        
+        $(".header-area").sticky({topSpacing:0});
+        
+        
+        //start smooth scrolling
+        $('li.smooth-menu a').bind('click',function(event){
+			var $anchor = $(this);
+			var headerH = "60";
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top- headerH + "px"
+			}, 1200, 'easeInOutExpo');
+			
+			event.preventDefault();
+		});
+		//end smooth scrolling
 
 
     });

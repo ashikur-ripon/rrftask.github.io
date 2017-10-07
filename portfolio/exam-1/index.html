@@ -36,6 +36,7 @@
     </head>
     <body>
        
+        <div id="home"></div>
        <div class="header-top-area">
            <div class="container">
                <div class="row">
@@ -74,13 +75,13 @@
                    <div class="col-md-8 text-right">
                        <div class="mainmenu">
                            <ul>                                                          
-                               <li><a href="">HOME</a></li>
-                               <li><a href="">ABOUT US</a></li>
-                               <li><a href="">SERVICE</a></li>
-                               <li><a href="">PROJECT</a></li>
-                               <li><a href="">NEWS</a></li>
-                               <li><a href="">SHOP</a></li>
-                               <li><a href="">CONTACT</a></li>
+                               <li class="smooth-menu"><a href="#home">HOME</a></li>
+                               <li class="smooth-menu"><a href="#aboutus">ABOUT US</a></li>
+                               <li class="smooth-menu"><a href="#service">SERVICE</a></li>
+                               <li class="smooth-menu"><a href="#project">PROJECT</a></li>
+                               <li class="smooth-menu"><a href="">NEWS</a></li>
+                               <li class="smooth-menu"><a href="">SHOP</a></li>
+                               <li class="smooth-menu"><a href="">CONTACT</a></li>
                            </ul>
                        </div>
                    </div>
@@ -150,7 +151,7 @@
        </div>
        
        
-        <div class="service-area pdt-100">
+        <div class="service-area pdt-100" id="service">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3 text-center">
@@ -208,7 +209,7 @@
         </div>
         
         
-        <div class="about-area section-padding gray-bg">
+        <div class="about-area section-padding gray-bg" id="aboutus">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3 text-center">
@@ -257,7 +258,7 @@
             </div>
         </div>
         
-        <div class="project-area">
+        <div class="project-area" id="project">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3 text-center">
@@ -571,6 +572,12 @@
         
         <!-- OwlCarousel JS -->
         <script src="assets/js/owl.carousel.min.js"></script>
+        
+        <!-- Sticky JS -->
+        <script src="assets/js/jquery.sticky.js"></script>
+        
+        <!-- Easing class="smooth-menu" JS -->
+        <script src="assets/js/jquery.easing.min.js"></script>
         
         <!-- Main JS -->
         <script src="assets/js/main.js"></script>

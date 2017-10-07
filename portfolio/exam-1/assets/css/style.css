@@ -1,5 +1,7 @@
 /*
-Template Name
+FACTORYSITE Name
+Developed by Ashikur Rahman Ripom
+ashikur.amath@gmail.com
 */
 
 
@@ -11,20 +13,15 @@ CSS Index
 * Header Top CSS
 * BreadCroumb CSS
 * Hero area CSS
-* Section title CSS
-* Services CSS
+* Service CSS
 * About  CSS
-* Case study  CSS
-* TileGallery  CSS
-* OwlCarousel  CSS
-* Testimonial  CSS
 * Call to action CSS
-* Pricing CSS
-* Logo carousel CSS
+* Project  CSS
+* Team  CSS
+* Partner  CSS
 * Footer CSS
-* Search Bar CSS
-* Hover CSS
-* ColorNip CSS
+* scrollToTop CSSS
+* Sticky Menu CSSS
 ================*/
 
 
@@ -181,7 +178,7 @@ Header CSS
     color: #0b0b0b;
     font-size: 14px;
     border: 1px solid #ffffff;
-    padding: 7px 14px;
+    padding: 8px 14px;
     margin-left: 2px;
     margin-top: 7px;
     transition: all ease .3s;
@@ -718,3 +715,44 @@ scrollToTop CSS
     opacity: 1;
     color: #fff;
 }
+
+
+
+
+/* =====================
+Sticky Menu CSS
+================*/
+
+.sticky-wrapper {
+	position: relative;
+	width: 100%;
+	z-index: 999;
+}
+.is-sticky .header-area {
+}
+
+.is-sticky .header-area:after {
+	background: #fff;
+	opacity: .8;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	z-index: -1;
+	box-shadow: 0 0 20px #000;
+}
+.header-area:after, .logo a, .mainmenu  a, .header-area {
+	transition: .4s;
+}
+.is-sticky .logo a {
+	padding: 5px 16px;
+}
+.is-sticky .mainmenu li a {
+	padding: 7px 12px;
+}
+.is-sticky .header-area {
+    padding: 10px 0;
+}
+
